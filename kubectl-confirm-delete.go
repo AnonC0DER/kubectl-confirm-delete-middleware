@@ -28,8 +28,6 @@ func main() {
 		} else if strings.ToLower(input) == "n" {
 			fmt.Println("Well, this time I saved your ass.")
 			fmt.Println("Be more careful.")
-		} else {
-			fmt.Println("WTF?")
 		}
 	} else {
 		cmd := exec.Command("kubectl", args...)
