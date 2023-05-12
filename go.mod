@@ -1,4 +1,4 @@
-module kubectl-delete-script
+module kubectl-confirm-delete
 
 go 1.19
 
